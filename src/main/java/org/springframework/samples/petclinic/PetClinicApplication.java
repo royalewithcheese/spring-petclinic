@@ -32,7 +32,7 @@ public class PetClinicApplication extends SpringBootServletInitializer {
     
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(Application.class);
+        return application.sources(PetClinicApplication.class);
     }
 
     public static void main(String[] args) throws Exception {
